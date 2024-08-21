@@ -1,0 +1,133 @@
+{
+  "id": "seventh-compendium-5e-2024",
+  "title": "🍔 Seventh Secret's Compendium 5e/24",
+  "version": "20.24",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "autoanimations",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "ActiveAuras",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "vision-5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ATL",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Заклинания, классы, подклассы, виды, предметы и монстры из 5-ой редакции D&amp;D 2024 года выпуска - всё это вы сможете найти в огромном компендиуме.\nМножество заклинаний и классовых умений имеют эффекты, для работы которых требуется включить зависимости.\n\nИспользован перевод PHantom Studio.",
+  "authors": [
+    {
+      "name": "SweetyHake",
+      "email": "sweetyhake@gmail.com",
+      "discord": "sweetyhake",
+      "flags": {}
+    },
+    {
+      "name": "Scorpio",
+      "discord": "scowpio",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "SS's 5e 2024 Compendium",
+      "sorting": "m",
+      "color": "#5b21b6",
+      "packs": [
+        "skills-and-etc",
+        "creatures",
+        "info",
+        "tables"
+      ],
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "skills-and-etc",
+      "label": "Классы, предметы и заклинания",
+      "path": "packs/skills-and-etc",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "info",
+      "label": "Справочник",
+      "path": "packs/info",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "creatures",
+      "label": "Существа",
+      "path": "packs/creatures",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Таблицы",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }],
+    "url": "https://gitlab.com/riccisi/foundryvtt-babele",
+    "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+    "download": "https://gitlab.com/riccisi/foundryvtt-babele/-/jobs/artifacts/2.5.5/raw/babele.zip?job=build"
+}
